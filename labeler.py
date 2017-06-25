@@ -1,10 +1,4 @@
-#Analyze finaldata set to give each data point a label representing number of days until it went on sale again
-#Will have to first categorize data by keywords
-#what to do with data points that dont fit
-#what to do with data points that fit in more than one place
-#calculate next smallest number and that's the lable
-#If the item doesn't appear again, we'll say 365, assuming its a once in a year deal
-#Will have to look at what the categories are for this
+#Prepare data and translate from words to vectors.
 
 import re
 from fuzzywuzzy import fuzz
